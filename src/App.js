@@ -38,7 +38,7 @@ deleteCharHandler = (index) => {
           onChange={this.inputChangedHandler} 
           value={this.state.userInput}/>
           <p>{this.state.userInput}</p>
-          <Validation inputLength = {this.state.userInput}/>
+          <Validation inputLength = {this.state.userInput.length}/>
           {charList}
         
     </div>
